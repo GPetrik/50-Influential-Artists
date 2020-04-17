@@ -249,9 +249,14 @@ function removeArtist(artists, index) {
 
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
 
-function get20s(/* Code here */){
+// trying to parse the string to an integer so I can compare values...
+function get20s(artArray){
 
-    /* Code here */
+    let otherArray = [];
+
+    for (i=0; i < artArray.length; i++) {
+
+    }
 
   }
 
