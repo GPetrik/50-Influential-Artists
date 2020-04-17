@@ -1,4 +1,176 @@
-/* Font in design files is Raleway */
-
-/* background-image in Design 👇
- url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg'); */
+.iSaidSo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  border: 1px solid grey;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 100% /*you can never be bigger than your parents */;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.navbar a {
+  text-decoration: none;
+  font-size: 180%;
+  color: black;
+  margin: 1%;
+  padding: 2%;
+}
+.navbar a:nth-child(2) {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.title-container {
+  text-align: center;
+  height: 44vh;
+  background-image: url(/assets/home.png);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title-container h1 {
+  font-size: 240%;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.title-container .btnstyle {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  background-color: whitesmoke;
+}
+img:hover {
+  opacity: 0.8;
+}
+.artists-container {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid silver;
+  margin-top: 3%;
+}
+@media (max-width: 600px) {
+  .artists-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.artists-container .artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
+  margin-top: 3%;
+}
+@media (max-width: 600px) {
+  .artists-container .artist {
+    width: 94%;
+  }
+}
+.artists-container .artist a {
+  font-size: 160%;
+  margin: 2%;
+  color: black;
+  text-decoration: none;
+}
+.artists-container .artist img {
+  width: 80%;
+}
+.artists-container .artist .bio {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
