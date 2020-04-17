@@ -142,12 +142,23 @@ img:hover {
   border-top: 1px solid silver;
   margin-top: 3%;
 }
+@media (max-width: 600px) {
+  .artists-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .artists-container .artist {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 45%;
   margin-top: 3%;
+}
+@media (max-width: 600px) {
+  .artists-container .artist {
+    width: 94%;
+  }
 }
 .artists-container .artist a {
   font-size: 160%;
